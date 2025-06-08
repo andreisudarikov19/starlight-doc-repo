@@ -6,6 +6,16 @@ This is only a test for the local builder.
 
 > If you see this, the **whole** infrastructure operates correctly.
 
+Steps to deploy the documentation rendering engine:
+
+1. Create a node in Kubernetes for the doc deployment.
+
+2. Deploy a namespace:
+
+    ```sh
+    kubectl apply -f namespace.yaml
+    ```
+
 ## Quick overview of the current state fo the project
 
 I've managed to create a buildable, reliable system for delivering a compiled and functional **Starlight** documentation website deployed in a pod.
