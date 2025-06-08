@@ -14,7 +14,8 @@
     "@astrojs/starlight": "latest",
     "@astrojs/mdx": "latest",
     "@astrojs/sitemap": "latest",
-    "@astrojs/markdoc": "latest"
+    "@astrojs/markdoc": "latest",
+    "@markdoc/markdoc": "latest",
   },
   "engines": {
     "node": ">=18.14"
