@@ -10,10 +10,10 @@
     "lint": "astro check"
   },
   "dependencies": {
-    "astro": "^4.8.0",
-    "@astrojs/starlight": "^0.18.4",
-    "@astrojs/mdx": "^3.3.0",
-    "@astrojs/sitemap": "^3.2.0",
+    "astro": "latest",
+    "@astrojs/starlight": "latest",
+    "@astrojs/mdx": "latest",
+    "@astrojs/sitemap": "latest",
     "@astrojs/markdoc": "latest"
   },
   "engines": {
